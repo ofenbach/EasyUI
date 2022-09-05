@@ -21,18 +21,17 @@ html_template = """
 """
 
 class easyUI:
+    """ Generates basic html, css, javascript templates and launches them with eel """
 
     def __init__(self):
 
         # create basic javascript template
         f = open('web/scripts.js', 'w')
         f.write("")
-        f.close()
 
         # create basic css template
         f = open('web/style.css', 'w')
         f.write("")
-        f.close()
 
         # create basic html template
         f = open('web/index.html', 'w')
